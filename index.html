@@ -11,9 +11,11 @@
         <h1>Beautiful places visited</h1>
     </header>
     <div class="intro">
-        <p>Travelling is a beautiful habit that enriches our lives.</p>
-        <img src="https://media.cntraveler.com/photos/5fd26c4ddf72876c320b8001/16:9/w_2560%2Cc_limit/952456172" alt="Travel Image">
+        <img src="https://media.cntraveler.com/photos/5fd26c4ddf72876c320b8001/16:9/w_2560%2Cc_limit/952456172" alt="Travel Image" length="100%" width="100%">
+         <div class="image-text">Travelling is a beautiful habit that enriches our lives.</div>
     </div>
+    <div class="form">
+        <h2>Please fill in the information below</h2>
     <form class="travel-form" id="place-form">
         <input type="text" id="place-name" placeholder="Place Name" required><br>
         <input type="date" id="place-date" required><br>
@@ -21,6 +23,7 @@
         <input type="text" id="place-description" placeholder="Short Description"><br>
         <button type="submit">Add Place</button>
      </form>
+     </div>
      <div id="places-list">
         <!-- Places will be displayed here -->
     </div>
