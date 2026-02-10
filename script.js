@@ -12,3 +12,7 @@ form.addEventListener("submit", function (event) {
     const date = document.getElementById("place-date").value;
     const location = document.getElementById("place-location").value;
     const description = document.getElementById("place-description").value;
+
+    // Create a container for the new place
+    const placeCard = document.createElement("div");
+    placeCard.classList.add("place-card");
