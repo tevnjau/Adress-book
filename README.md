@@ -41,3 +41,13 @@ HTML5 – structure and layout of the webpage
 CSS – styling and design of the form and place cards
 JavaScript – logic for form submission, dynamic card creation, and deletion
 Git/GitHub – version control and collaboration
+
+## Contact Information
+For questions or feedback, please contact:
+Tevin Njau
+Email: tevnjau@gmail.com
+GitHub: https://github.com/tevnjau
+
+## License and Copyright
+2026 Tevin Njau. All rights reserved.
+This project is licensed under the MIT License, which permits reuse, modification, and distribution for personal and commercial projects. See the LICENSE file for more information.
