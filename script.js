@@ -16,3 +16,11 @@ form.addEventListener("submit", function (event) {
     // Create a container for the new place
     const placeCard = document.createElement("div");
     placeCard.classList.add("place-card");
+
+    // Add content to the card
+    placeCard.innerHTML = `
+        <h3>${name}</h3>
+        <p><strong>Date:</strong> ${date}</p>
+        <p><strong>Location:</strong> ${location}</p>
+        <p><strong>description:</strong>${description}</p>
+    `;
