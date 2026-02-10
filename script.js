@@ -52,3 +52,6 @@ deleteBtn.addEventListener("click", function () {
         // Add card to the page
     placesList.appendChild(placeCard);
 
+    // Clear the form
+    form.reset();
+});
