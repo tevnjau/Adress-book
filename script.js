@@ -49,4 +49,6 @@ form.addEventListener("submit", function (event) {
 
 deleteBtn.addEventListener("click", function () {
     placeCard.remove();
- 
+        // Add card to the page
+    placesList.appendChild(placeCard);
+
