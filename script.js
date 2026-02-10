@@ -45,3 +45,8 @@ form.addEventListener("submit", function (event) {
         <p><strong>description:</strong>${description}</p>
         <button class="delete-btn">Delete</button>
     `;
+    const deleteBtn = placeCard.querySelector(".delete-btn");
+
+deleteBtn.addEventListener("click", function () {
+    placeCard.remove();
+ 
