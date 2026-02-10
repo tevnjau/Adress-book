@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adress Book</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Beautiful places visited</h1>
+    </header>
+    <div class="intro">
+        <p>Travelling is a beautiful habit that enriches our lives.</p>
+        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dHJhdmVsbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Travel Image">
+    </div>
+    <form class="travel-form" id="place-form">
+        <input type="text" id="place-name" placeholder="Place Name" required><br>
+        <input type="date" id="place-date" required><br>
+        <input type="text" id="place-location" placeholder="Location" required><br>
+        <input type="text" id="place-description" placeholder="Short Description"><br>
+        <button type="submit">Add Place</button>
+     </form>
+     <div id="places-list">
+        <!-- Places will be displayed here -->
+    </div>
+
+ <script src="script.js"></script>   
+</body>
+</html>
