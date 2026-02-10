@@ -8,3 +8,21 @@ The Address Book is a web application that allows users to record and manage pla
 Tevin Njau
 Email: tevnjau@gmail.com
 GitHub: https://github.com/tevnjau
+
+---
+
+## Live Site
+https://tevnjau.github.io/Adress-book/
+
+---
+
+## Setup Instructions
+Clone the repository:
+1. git clone https://github.com/tevnjau/address-book.git
+2. Open the project folder.
+3. Open index.html in your web browser.
+4. Fill in the form with the place name, date, location, and description.
+5. Click Add Place to add it to your list. Each entry can be deleted if needed.
+
+---
+
